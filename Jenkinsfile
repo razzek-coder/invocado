@@ -5,6 +5,7 @@ pipeline {
     stage('principal') {
       steps {
         echo 'hola desde el invocado'
+      }
     }
   }
 }
